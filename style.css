@@ -161,9 +161,12 @@ header {
   width: 100%;
 }
 
+main {
+  background-color: white;
+}
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .nav-page {
@@ -242,4 +245,68 @@ header {
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
+}
+
+.text h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #35465e;
+  margin-top: 70px;
+}
+.main img {
+  margin-top: 30px;
+}
+
+.middle {
+  margin-left: 50%;
+  margin-top: 30px;
+  color: #35465e;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.hamma {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  background-color: white;
+}
+
+.matn h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #35465e;
+  margin-top: 28px;
+}
+.matn p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #556882;
+  width: 385px;
+  letter-spacing: 0px;
+  margin-top: 18px;
+}
+
+.matn button {
+  padding: 20px 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2489ff;
+  color: white;
+  margin-top: 40px;
+}
+
+.p-text {
+  margin-left: 86%;
+  margin-top: -76px;
+}
+
+.magazine {
+  margin-left: 18%;
+  margin-top: -175px;
 }
