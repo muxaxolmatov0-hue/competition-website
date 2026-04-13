@@ -241,6 +241,14 @@ main {
   gap: 55px;
   margin-top: 50px;
 }
+.karta img {
+  transition: all 0.4s linear;
+}
+.karta img:hover {
+  transform: scale(1.01);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
 .karta p {
   color: #ffffff;
   font-size: 16px;
@@ -265,7 +273,14 @@ main {
   gap: 30px;
   text-align: center;
 }
-
+.one-rasm img {
+  transition: all 0.4s linear;
+}
+.one-rasm img:hover {
+  transform: scale(1.01);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
 .middle {
   margin-left: 50%;
   margin-top: 30px;
@@ -335,6 +350,12 @@ main {
   z-index: 3;
   padding: 10px;
   border-radius: 8px;
+  transition: all 0.4s linear;
+}
+.card:hover {
+  transform: scale(1.01);
+  transition: all 0.4s linear;
+  cursor: pointer;
 }
 .card h2 {
   font-size: 24px;
@@ -360,8 +381,13 @@ main {
 
 .logo img {
   margin-top: 100px;
+  transition: all 0.4s linear;
 }
-
+.logo img:hover {
+  transform: scale(1.01);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
 .one-text h2 {
   font-size: 36px;
   font-weight: 800;
@@ -396,6 +422,12 @@ main {
   box-shadow: 0px 4px 38px 0px rgba(34, 60, 80, 0.2);
   padding: 40px;
   margin-top: 150px;
+  transition: all 0.4s linear;
+}
+.all-title:hover {
+  transform: scale(1.01);
+  transition: all 0.4s linear;
+  cursor: pointer;
 }
 .tt-tt {
 }
@@ -466,4 +498,120 @@ main {
 }
 .btn {
   margin: 0 auto;
+}
+button:hover {
+  transform: scale(1.01);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+.main-end {
+  align-items: center;
+}
+.main-end h2 {
+  color: #35465e;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+  margin-top: 150px;
+  margin-left: 28%;
+  align-items: center;
+}
+
+.main-end p {
+  color: #556882;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 36%;
+  align-items: center;
+  margin-top: 14px;
+}
+.map-section {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 420px;
+  border: none;
+}
+
+.map-section::before {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+  z-index: 2;
+}
+
+.map-section::after {
+  position: absolute;
+  bottom: 180px;
+  width: 100%;
+  height: 120px;
+  z-index: 2;
+}
+
+.form-box {
+  position: relative;
+  max-width: 700px;
+  margin-left: 23%;
+  margin-top: -120px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.form-box p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  width: 220px;
+  line-height: 1.4;
+}
+
+.form-box input {
+  width: 180px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #eeeeee;
+  font-size: 14px;
+}
+
+.form-box button {
+  background: #2d7df6;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form-box button:hover {
+  background: #1c5edc;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  background-color: #1c5edc;
+  padding: 12px 16px;
+}
+.footer-end p {
+  color: #dedbdb;
+  font-size: 14px;
+  font-weight: 400;
 }
