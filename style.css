@@ -168,6 +168,7 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 .nav-page {
   display: flex;
@@ -258,6 +259,13 @@ main {
   margin-top: 30px;
 }
 
+.one-rasm {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
 .middle {
   margin-left: 50%;
   margin-top: 30px;
@@ -309,4 +317,43 @@ main {
 .magazine {
   margin-left: 18%;
   margin-top: -175px;
+}
+
+.four-page img {
+  width: 100%;
+  margin-top: 100px;
+  /* height: 80vh; */
+  /* padding: 100% 0px; */
+}
+
+.card {
+  max-width: 500px;
+  margin-left: 7%;
+  margin-top: -21%;
+  background-color: white;
+  position: relative;
+  z-index: 3;
+  padding: 10px;
+  border-radius: 8px;
+}
+.card h2 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #35465e;
+  margin-top: 50px;
+  margin-left: 14px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 100%;
+  color: #4e5c70;
+  max-width: 400px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.card img {
+  margin-top: 30px;
+  margin-left: 14px;
 }
